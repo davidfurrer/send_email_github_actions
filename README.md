@@ -1,5 +1,12 @@
 # How to send emails with github actions and python
 
+This is a set of examples of email types that can be sent with python and github actions using a gmail account. Potential use cases are:
+
+1) schedule a monthly report to be created and sent using python
+
+2) send yourself an email when a github action is finished containing input of the run
+
+
 
 ## Setting up gmail account for sending emails
 
