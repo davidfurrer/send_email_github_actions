@@ -7,9 +7,6 @@ verify_ssl = true
 
 [packages]
 pandas = "*"
-jupyterlab = "*"
-xlrd = "*" #excel
-ankitools = "*"
 
 [requires]
 python_version = "3.7"
