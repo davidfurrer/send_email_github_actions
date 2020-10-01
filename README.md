@@ -4,7 +4,7 @@ This is a set of examples of email types that can be sent with python and github
 
 1) schedule a monthly report to be created and sent using python
 
-2) send yourself an email when a github action is finished containing input of the run
+2) send yourself an email when a github action is finished containing output of the run
 
 
 
