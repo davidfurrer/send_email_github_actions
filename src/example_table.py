@@ -3,7 +3,6 @@ from email.mime.text import MIMEText
 from email.mime.multipart import MIMEMultipart
 from email.header import Header
 import pandas as pd
-import os
 
 df = pd.read_csv("file.csv")
 html_table = df.to_html()
@@ -25,10 +24,6 @@ html_message = f"""
   </body>
 </html>
 """
-
-html_message += start
-html_message += html_table
-html_message += end
 
 msg_content = MIMEText(html_message, 'html')
 msg.attach(msg_content)
