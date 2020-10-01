@@ -23,7 +23,7 @@ To set up a Gmail address for testing your code, do the following:
 
 ## Github action file
 
-This github action will send an email everyday at 5am UTC.
+This github action will send an email everyday at 5am UTC. If you need it to be every month or whatever else check out https://crontab.guru/examples.html for more examples.
 
 ```
 name: send email
